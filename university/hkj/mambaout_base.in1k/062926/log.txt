@@ -1,0 +1,39 @@
+
+Model: mambaout_base.in1k
+{'input_size': (3, 224, 224), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 1.0, 'crop_mode': 'center'}
+GPUs available: 2
+
+Image Size Query: (518, 518)
+Image Size Ground: (518, 518)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+Query Images Test: 37474
+Gallery Images Test: 951
+
+Scheduler: cosine - max LR: 1e-05
+Warmup Epochs: 0.1 - Warmup Steps: 236.60000000000002
+Train Epochs:  10 - Train Steps:  23660
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37840
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 14
+First Element ID: 1094 - Last Element ID: 0913
+
+------------------------------[Epoch: 1]------------------------------
+Epoch: 1, Train Loss = 0.948, Lr = 0.000010
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37474, 3072])
+Compute Scores:
+Recall@1: 71.8605 - Recall@5: 90.8977 - Recall@10: 94.4335 - Recall@top1: 94.8684 - AP: 76.0657
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37840
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 14
+First Element ID: 0945 - Last Element ID: 1592
+
+------------------------------[Epoch: 2]------------------------------

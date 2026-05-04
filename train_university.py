@@ -11,32 +11,35 @@ from transformers import get_constant_schedule_with_warmup, get_polynomial_decay
 
 from sample4geo.dataset.university import U1652DatasetEval, U1652DatasetTrain, get_transforms
 from sample4geo.utils import setup_system, Logger
-from sample4geo.trainer import train
+from sample4geo.trainer_base import train
 from sample4geo.evaluate.university import evaluate
 from sample4geo.loss import InfoNCE
 from sample4geo.model import TimmModel
 
+# export HF_ENDPOINT="https://hf-mirror.com"
 
 @dataclass
 class Configuration:
     
     # Model
-    model: str = 'convnext_base.fb_in22k_ft_in1k_384'
+    model: str = 'vit_base_patch14_dinov2.lvd142m'
+    # model: str = 'vit_small_patch16_384.augreg_in21k_ft_in1k'
     
     # Override model image size
-    img_size: int = 384
+    img_size: int = 518
+    # img_size: int = 384
     
     # Training 
     mixed_precision: bool = True
     custom_sampling: bool = True         # use custom sampling instead of random
     seed = 1
-    epochs: int = 1
-    batch_size: int = 128                # keep in mind real_batch_size = 2 * batch_size
+    epochs: int = 10
+    batch_size: int = 32                # keep in mind real_batch_size = 2 * batch_size
     verbose: bool = True
-    gpu_ids: tuple = (0,1,2,3)           # GPU ids for training
+    gpu_ids: tuple = (0,1)           # GPU ids for training
     
     # Eval
-    batch_size_eval: int = 128
+    batch_size_eval: int = 32
     eval_every_n_epoch: int = 1          # eval every n Epoch
     normalize_features: bool = True
     eval_gallery_n: int = -1             # -1 for all or int
@@ -50,7 +53,7 @@ class Configuration:
     label_smoothing: float = 0.1
     
     # Learning Rate
-    lr: float = 0.001                    # 1 * 10^-4 for ViT | 1 * 10^-1 for CNN
+    lr: float = 0.00005                    # 1 * 10^-4 for ViT | 1 * 10^-1 for CNN
     scheduler: str = "cosine"           # "polynomial" | "cosine" | "constant" | None
     warmup_epochs: int = 0.1
     lr_end: float = 0.0001               #  only for "polynomial"
@@ -72,7 +75,7 @@ class Configuration:
     checkpoint_start = None
   
     # set num_workers to 0 if on Windows
-    num_workers: int = 0 if os.name == 'nt' else 4 
+    num_workers: int = 0 
     
     # train on GPU if available
     device: str = 'cuda' if torch.cuda.is_available() else 'cpu' 
@@ -90,11 +93,12 @@ class Configuration:
 
 config = Configuration() 
 
+
 if config.dataset == 'U1652-D2S':
-    config.query_folder_train = './data/U1652/train/satellite'
-    config.gallery_folder_train = './data/U1652/train/drone'   
-    config.query_folder_test = './data/U1652/test/query_drone' 
-    config.gallery_folder_test = './data/U1652/test/gallery_satellite'    
+    config.query_folder_train = f'/public/home/houkaiji/dataset/U1652/University-Release/train/satellite'
+    config.gallery_folder_train = f'/public/home/houkaiji/dataset/U1652/University-Release/train/drone'
+    config.query_folder_test = f'/public/home/houkaiji/dataset/U1652/University-Release/test/query_drone'
+    config.gallery_folder_test = f'/public/home/houkaiji/dataset/U1652/University-Release/test/gallery_satellite'   
 elif config.dataset == 'U1652-S2D':
     config.query_folder_train = './data/U1652/train/satellite'
     config.gallery_folder_train = './data/U1652/train/drone'    

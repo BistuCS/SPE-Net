@@ -1,0 +1,29 @@
+
+Model: vit_base_patch14_dinov2.lvd142m
+===========building convnext===========
+using model_type: dinov2 as a backbone
+{'input_size': (3, 224, 224), 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225)}
+Start from: /public/home/houkaiji/flower/sues/hkj150/vit_base_patch14_dinov2.lvd142m/113113/weights_e2_0.9803.pth
+GPUs available: 2
+
+Image Size Query: (518, 518)
+Image Size Ground: (518, 518)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+Query Images Test: 80
+Gallery Images Test: 10000
+
+Scheduler: cosine - max LR: 1e-05
+Warmup Epochs: 0.1 - Warmup Steps: 18.8
+Train Epochs:  10 - Train Steps:  1880
+Extract Features:
+img_features_query torch.Size([80, 768])
+Compute Scores:
+Recall@1: 98.7500 - Recall@5: 98.7500 - Recall@10: 98.7500 - Recall@top1: 98.7500 - AP: 98.0141
+
+Shuffle Dataset:
+Original Length: 6000 - Length after Shuffle: 5984
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 16
+First Element ID: 0013 - Last Element ID: 0090

@@ -1,0 +1,2 @@
+
+Model: vit_base_patch14_dinov2.lvd142m

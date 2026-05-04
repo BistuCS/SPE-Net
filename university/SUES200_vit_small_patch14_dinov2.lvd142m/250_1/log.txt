@@ -1,0 +1,66 @@
+
+Model: vit_small_patch14_dinov2.lvd142m
+{'input_size': (3, 518, 518), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 1.0, 'crop_mode': 'center'}
+GPUs available: 2
+
+Image Size Query: (518, 518)
+Image Size Ground: (518, 518)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+Query Images Test: 4000
+Gallery Images Test: 200
+
+Scheduler: cosine - max LR: 1e-05
+Warmup Epochs: 0.1 - Warmup Steps: 18.8
+Train Epochs:  10 - Train Steps:  1880
+
+Shuffle Dataset:
+Original Length: 6000 - Length after Shuffle: 5984
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 16
+First Element ID: 0013 - Last Element ID: 0090
+
+------------------------------[Epoch: 1]------------------------------
+Epoch: 1, Train Loss = 0.862, Lr = 0.000010
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+Compute Scores:
+Recall@1: 97.2250 - Recall@5: 99.0000 - Recall@10: 99.4750 - Recall@top1: 98.8250 - AP: 97.6830
+
+Shuffle Dataset:
+Original Length: 6000 - Length after Shuffle: 5984
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 16
+First Element ID: 0147 - Last Element ID: 0032
+
+------------------------------[Epoch: 2]------------------------------
+Epoch: 2, Train Loss = 0.705, Lr = 0.000009
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+Compute Scores:
+Recall@1: 98.1500 - Recall@5: 98.7500 - Recall@10: 98.8750 - Recall@top1: 98.7500 - AP: 98.3411
+
+Shuffle Dataset:
+Original Length: 6000 - Length after Shuffle: 5984
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 16
+First Element ID: 0031 - Last Element ID: 0148
+
+------------------------------[Epoch: 3]------------------------------
+Epoch: 3, Train Loss = 0.688, Lr = 0.000008
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+Compute Scores:
+Recall@1: 98.0750 - Recall@5: 99.0250 - Recall@10: 99.7250 - Recall@top1: 98.7750 - AP: 98.3289
+
+Shuffle Dataset:
+Original Length: 6000 - Length after Shuffle: 5984
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 16
+First Element ID: 0086 - Last Element ID: 0182
+
+------------------------------[Epoch: 4]------------------------------

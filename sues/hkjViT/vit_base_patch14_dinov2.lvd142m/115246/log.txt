@@ -1,0 +1,39 @@
+
+Model: vit_base_patch14_dinov2.lvd142m
+===========building convnext===========
+using model_type: dinov2 as a backbone
+{'input_size': (3, 224, 224), 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225)}
+GPUs available: 2
+
+Image Size Query: (518, 518)
+Image Size Ground: (518, 518)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+Query Images Test: 37855
+Gallery Images Test: 951
+
+Scheduler: cosine - max LR: 1e-06
+Warmup Epochs: 0.1 - Warmup Steps: 946.4000000000001
+Train Epochs:  1 - Train Steps:  9464
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37852
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 2
+First Element ID: 1094 - Last Element ID: 1342
+
+------------------------------[Epoch: 1]------------------------------
+Epoch: 1, Train Loss = 24.908, Lr = 0.000000
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 88.7307 - Recall@5: 97.2765 - Recall@10: 98.1931 - Recall@top1: 98.2803 - AP: 90.6620
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37852
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 2
+First Element ID: 0945 - Last Element ID: 1501

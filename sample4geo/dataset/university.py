@@ -39,7 +39,10 @@ class U1652DatasetTrain(Dataset):
         self.ids.sort()
         
         self.pairs = []
-        
+        ###
+        self.map_dict = {i: self.ids[i] for i in range(len(self.ids))}
+        self.reverse_map_dict = {v: k for k, v in self.map_dict.items()}
+        ###
         for idx in self.ids:
             
             query_img = "{}/{}".format(self.query_dict[idx]["path"],
@@ -48,8 +51,12 @@ class U1652DatasetTrain(Dataset):
             gallery_path = self.gallery_dict[idx]["path"]
             gallery_imgs = self.gallery_dict[idx]["files"]
             
+            ###
+            label = self.reverse_map_dict[idx]
+            ###
+
             for g in gallery_imgs:
-                self.pairs.append((idx, query_img, "{}/{}".format(gallery_path, g)))
+                self.pairs.append((idx, label, query_img, "{}/{}".format(gallery_path, g)))
         
         self.transforms_query = transforms_query
         self.transforms_gallery = transforms_gallery
@@ -60,7 +67,7 @@ class U1652DatasetTrain(Dataset):
         
     def __getitem__(self, index):
         
-        idx, query_img_path, gallery_img_path = self.samples[index]
+        idx, label, query_img_path, gallery_img_path = self.samples[index]
         
         # for query there is only one file in folder
         query_img = cv2.imread(query_img_path)
@@ -81,7 +88,7 @@ class U1652DatasetTrain(Dataset):
         if self.transforms_gallery is not None:
             gallery_img = self.transforms_gallery(image=gallery_img)['image']
         
-        return query_img, gallery_img, idx
+        return query_img, gallery_img, idx, label
 
     def __len__(self):
         return len(self.samples)
@@ -122,7 +129,7 @@ class U1652DatasetTrain(Dataset):
                 if len(pair_pool) > 0:
                     pair = pair_pool.pop(0)
                     
-                    idx, _, _ = pair
+                    idx, _, _ , _= pair
                     
                     if idx not in idx_batch and pair not in pairs_epoch:
                         
@@ -203,6 +210,8 @@ class U1652DatasetEval(Dataset):
                                                       file))
                 
                 self.sample_ids.append(sample_id) 
+        # for index,value in enumerate(self.sample_ids):
+        #     print("sample_ids",index,value)
                     
   
             

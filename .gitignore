@@ -159,6 +159,29 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# ===== Existing project ignores =====
 data/
 pretrained/
 .DS_Store
+
+# ===== Added: generated features / visualizations / results =====
+feature_map/
+
+gradcam_results/
+gradcam_results_sate/
+
+heatmap_gallery_drone/
+heatmap_gallery_satellite/
+
+# heatmap_drone_mirrortwo20 ~ heatmap_drone_mirrortwo100 (and similar)
+heatmap_drone_mirrortwo*/
+
+# ===== Added (optional but recommended): logs / outputs / large binaries =====
+log/
+log_old/
+nohup.out
+
+*.bin
+*.pt
+*.pth
+*.ckpt

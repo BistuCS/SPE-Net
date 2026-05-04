@@ -1,0 +1,1067 @@
+
+Model: vit_base_patch14_dinov2.lvd142m
+{'input_size': (3, 518, 518), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 1.0, 'crop_mode': 'center'}
+Start from: /public/home/chuyanhao/Sample4Geo/university/1652_vit_base_patch14_dinov2.lvd142m/111612/weights_e10_0.9501.pth
+GPUs available: 2
+
+Image Size Query: (518, 518)
+Image Size Ground: (518, 518)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+sample_ids 0 9999
+sample_ids 0 0903
+sample_ids 1 0002
+sample_ids 2 0534
+sample_ids 3 1336
+sample_ids 4 0038
+sample_ids 5 0244
+sample_ids 6 0817
+sample_ids 7 0553
+sample_ids 8 0307
+sample_ids 9 0832
+sample_ids 10 0064
+sample_ids 11 0266
+sample_ids 12 0536
+sample_ids 13 0405
+sample_ids 14 0281
+sample_ids 15 0603
+sample_ids 16 0284
+sample_ids 17 0191
+sample_ids 18 0526
+sample_ids 19 1003
+sample_ids 20 1308
+sample_ids 21 0193
+sample_ids 22 1224
+sample_ids 23 1077
+sample_ids 24 0439
+sample_ids 25 0167
+sample_ids 26 0580
+sample_ids 27 0311
+sample_ids 28 0040
+sample_ids 29 0098
+sample_ids 30 0568
+sample_ids 31 0436
+sample_ids 32 0185
+sample_ids 33 0250
+sample_ids 34 0646
+sample_ids 35 0485
+sample_ids 36 0066
+sample_ids 37 0206
+sample_ids 38 1564
+sample_ids 39 0612
+sample_ids 40 0494
+sample_ids 41 0413
+sample_ids 42 1305
+sample_ids 43 0648
+sample_ids 44 0809
+sample_ids 45 0508
+sample_ids 46 0089
+sample_ids 47 0210
+sample_ids 48 1484
+sample_ids 49 0679
+sample_ids 50 0023
+sample_ids 51 1062
+sample_ids 52 0627
+sample_ids 53 0739
+sample_ids 54 0703
+sample_ids 55 0711
+sample_ids 56 0762
+sample_ids 57 0248
+sample_ids 58 0214
+sample_ids 59 0453
+sample_ids 60 0586
+sample_ids 61 0292
+sample_ids 62 0449
+sample_ids 63 0362
+sample_ids 64 0339
+sample_ids 65 0808
+sample_ids 66 0117
+sample_ids 67 0344
+sample_ids 68 0472
+sample_ids 69 0476
+sample_ids 70 0771
+sample_ids 71 0445
+sample_ids 72 0543
+sample_ids 73 0640
+sample_ids 74 0562
+sample_ids 75 0158
+sample_ids 76 0823
+sample_ids 77 0705
+sample_ids 78 0068
+sample_ids 79 0658
+sample_ids 80 0259
+sample_ids 81 0475
+sample_ids 82 0205
+sample_ids 83 0684
+sample_ids 84 0212
+sample_ids 85 0563
+sample_ids 86 0400
+sample_ids 87 0010
+sample_ids 88 0333
+sample_ids 89 0718
+sample_ids 90 1636
+sample_ids 91 1104
+sample_ids 92 0100
+sample_ids 93 0105
+sample_ids 94 0878
+sample_ids 95 0442
+sample_ids 96 0533
+sample_ids 97 0101
+sample_ids 98 0263
+sample_ids 99 0391
+sample_ids 100 0707
+sample_ids 101 0243
+sample_ids 102 0795
+sample_ids 103 1560
+sample_ids 104 0682
+sample_ids 105 0410
+sample_ids 106 0313
+sample_ids 107 0222
+sample_ids 108 0979
+sample_ids 109 0617
+sample_ids 110 0072
+sample_ids 111 0340
+sample_ids 112 0035
+sample_ids 113 0017
+sample_ids 114 1236
+sample_ids 115 0642
+sample_ids 116 0328
+sample_ids 117 0573
+sample_ids 118 0170
+sample_ids 119 0054
+sample_ids 120 0351
+sample_ids 121 0830
+sample_ids 122 0478
+sample_ids 123 0861
+sample_ids 124 0687
+sample_ids 125 0978
+sample_ids 126 0224
+sample_ids 127 0161
+sample_ids 128 0678
+sample_ids 129 0350
+sample_ids 130 0968
+sample_ids 131 0251
+sample_ids 132 0320
+sample_ids 133 0607
+sample_ids 134 0704
+sample_ids 135 0514
+sample_ids 136 0558
+sample_ids 137 0638
+sample_ids 138 0557
+sample_ids 139 0112
+sample_ids 140 0435
+sample_ids 141 0213
+sample_ids 142 0139
+sample_ids 143 0386
+sample_ids 144 0616
+sample_ids 145 0605
+sample_ids 146 0004
+sample_ids 147 0254
+sample_ids 148 0776
+sample_ids 149 0070
+sample_ids 150 0276
+sample_ids 151 0835
+sample_ids 152 0688
+sample_ids 153 0042
+sample_ids 154 0217
+sample_ids 155 0660
+sample_ids 156 0019
+sample_ids 157 0702
+sample_ids 158 0227
+sample_ids 159 0330
+sample_ids 160 0200
+sample_ids 161 0390
+sample_ids 162 0758
+sample_ids 163 0225
+sample_ids 164 0418
+sample_ids 165 0140
+sample_ids 166 0358
+sample_ids 167 1273
+sample_ids 168 0811
+sample_ids 169 0303
+sample_ids 170 0897
+sample_ids 171 0564
+sample_ids 172 0517
+sample_ids 173 0792
+sample_ids 174 0430
+sample_ids 175 0059
+sample_ids 176 0327
+sample_ids 177 0794
+sample_ids 178 0595
+sample_ids 179 0381
+sample_ids 180 0016
+sample_ids 181 1343
+sample_ids 182 1487
+sample_ids 183 0596
+sample_ids 184 0385
+sample_ids 185 0725
+sample_ids 186 0611
+sample_ids 187 0661
+sample_ids 188 0669
+sample_ids 189 0305
+sample_ids 190 0735
+sample_ids 191 0126
+sample_ids 192 0480
+sample_ids 193 0353
+sample_ids 194 0873
+sample_ids 195 0641
+sample_ids 196 0938
+sample_ids 197 0708
+sample_ids 198 0515
+sample_ids 199 0743
+sample_ids 200 0325
+sample_ids 201 0622
+sample_ids 202 0024
+sample_ids 203 0837
+sample_ids 204 0818
+sample_ids 205 0173
+sample_ids 206 1534
+sample_ids 207 0802
+sample_ids 208 0282
+sample_ids 209 0011
+sample_ids 210 0664
+sample_ids 211 1009
+sample_ids 212 1559
+sample_ids 213 0579
+sample_ids 214 0583
+sample_ids 215 0109
+sample_ids 216 0223
+sample_ids 217 0911
+sample_ids 218 0518
+sample_ids 219 0007
+sample_ids 220 1341
+sample_ids 221 0654
+sample_ids 222 0065
+sample_ids 223 0274
+sample_ids 224 0375
+sample_ids 225 0055
+sample_ids 226 0444
+sample_ids 227 0527
+sample_ids 228 0111
+sample_ids 229 0164
+sample_ids 230 0920
+sample_ids 231 0031
+sample_ids 232 0539
+sample_ids 233 0426
+sample_ids 234 0443
+sample_ids 235 0262
+sample_ids 236 0537
+sample_ids 237 0152
+sample_ids 238 0525
+sample_ids 239 0746
+sample_ids 240 0555
+sample_ids 241 0125
+sample_ids 242 0403
+sample_ids 243 0807
+sample_ids 244 0531
+sample_ids 245 0637
+sample_ids 246 1467
+sample_ids 247 0352
+sample_ids 248 0148
+sample_ids 249 0271
+sample_ids 250 0198
+sample_ids 251 0329
+sample_ids 252 0236
+sample_ids 253 0298
+sample_ids 254 0361
+sample_ids 255 0136
+sample_ids 256 0785
+sample_ids 257 0455
+sample_ids 258 0026
+sample_ids 259 0044
+sample_ids 260 0609
+sample_ids 261 0717
+sample_ids 262 0197
+sample_ids 263 0490
+sample_ids 264 0462
+sample_ids 265 0511
+sample_ids 266 0113
+sample_ids 267 0408
+sample_ids 268 0813
+sample_ids 269 0232
+sample_ids 270 0049
+sample_ids 271 1225
+sample_ids 272 0759
+sample_ids 273 0316
+sample_ids 274 0535
+sample_ids 275 1202
+sample_ids 276 0790
+sample_ids 277 0239
+sample_ids 278 0028
+sample_ids 279 0176
+sample_ids 280 0513
+sample_ids 281 0572
+sample_ids 282 0172
+sample_ids 283 1147
+sample_ids 284 0157
+sample_ids 285 0133
+sample_ids 286 0645
+sample_ids 287 0662
+sample_ids 288 0463
+sample_ids 289 0629
+sample_ids 290 0141
+sample_ids 291 0174
+sample_ids 292 0796
+sample_ids 293 0467
+sample_ids 294 0569
+sample_ids 295 0672
+sample_ids 296 0929
+sample_ids 297 0291
+sample_ids 298 0448
+sample_ids 299 0001
+sample_ids 300 0780
+sample_ids 301 0461
+sample_ids 302 0025
+sample_ids 303 0599
+sample_ids 304 1502
+sample_ids 305 0270
+sample_ids 306 0084
+sample_ids 307 0613
+sample_ids 308 0268
+sample_ids 309 0853
+sample_ids 310 0469
+sample_ids 311 0083
+sample_ids 312 0502
+sample_ids 313 0369
+sample_ids 314 0269
+sample_ids 315 0428
+sample_ids 316 0446
+sample_ids 317 0124
+sample_ids 318 1601
+sample_ids 319 1529
+sample_ids 320 0625
+sample_ids 321 0899
+sample_ids 322 0027
+sample_ids 323 0409
+sample_ids 324 1325
+sample_ids 325 0781
+sample_ids 326 0050
+sample_ids 327 0521
+sample_ids 328 0591
+sample_ids 329 0523
+sample_ids 330 0619
+sample_ids 331 0365
+sample_ids 332 0162
+sample_ids 333 0021
+sample_ids 334 0686
+sample_ids 335 0203
+sample_ids 336 0388
+sample_ids 337 0367
+sample_ids 338 0457
+sample_ids 339 0095
+sample_ids 340 0624
+sample_ids 341 0295
+sample_ids 342 0556
+sample_ids 343 0093
+sample_ids 344 0826
+sample_ids 345 0576
+sample_ids 346 0422
+sample_ids 347 0788
+sample_ids 348 0477
+sample_ids 349 0593
+sample_ids 350 0189
+sample_ids 351 0082
+sample_ids 352 0334
+sample_ids 353 1204
+sample_ids 354 0354
+sample_ids 355 0235
+sample_ids 356 0357
+sample_ids 357 0048
+sample_ids 358 0046
+sample_ids 359 0653
+sample_ids 360 0547
+sample_ids 361 0506
+sample_ids 362 0332
+sample_ids 363 0716
+sample_ids 364 0211
+sample_ids 365 0192
+sample_ids 366 0256
+sample_ids 367 0747
+sample_ids 368 0387
+sample_ids 369 0659
+sample_ids 370 0097
+sample_ids 371 0286
+sample_ids 372 0180
+sample_ids 373 0805
+sample_ids 374 0312
+sample_ids 375 0360
+sample_ids 376 0277
+sample_ids 377 0398
+sample_ids 378 0821
+sample_ids 379 1523
+sample_ids 380 0465
+sample_ids 381 0610
+sample_ids 382 0773
+sample_ids 383 1247
+sample_ids 384 0441
+sample_ids 385 0727
+sample_ids 386 0701
+sample_ids 387 0238
+sample_ids 388 0013
+sample_ids 389 0493
+sample_ids 390 0062
+sample_ids 391 0833
+sample_ids 392 0460
+sample_ids 393 0326
+sample_ids 394 0253
+sample_ids 395 0187
+sample_ids 396 0551
+sample_ids 397 1081
+sample_ids 398 0160
+sample_ids 399 0421
+sample_ids 400 0399
+sample_ids 401 0544
+sample_ids 402 0228
+sample_ids 403 0738
+sample_ids 404 0264
+sample_ids 405 1596
+sample_ids 406 0438
+sample_ids 407 0464
+sample_ids 408 0275
+sample_ids 409 0530
+sample_ids 410 0380
+sample_ids 411 0803
+sample_ids 412 0378
+sample_ids 413 0394
+sample_ids 414 0608
+sample_ids 415 1483
+sample_ids 416 0079
+sample_ids 417 0283
+sample_ids 418 0034
+sample_ids 419 0819
+sample_ids 420 0346
+sample_ids 421 0086
+sample_ids 422 0051
+sample_ids 423 1231
+sample_ids 424 0693
+sample_ids 425 0585
+sample_ids 426 0630
+sample_ids 427 0667
+sample_ids 428 0030
+sample_ids 429 0363
+sample_ids 430 0417
+sample_ids 431 0666
+sample_ids 432 0241
+sample_ids 433 0587
+sample_ids 434 0812
+sample_ids 435 0621
+sample_ids 436 0787
+sample_ids 437 1417
+sample_ids 438 0401
+sample_ids 439 0135
+sample_ids 440 0201
+sample_ids 441 0432
+sample_ids 442 0437
+sample_ids 443 0532
+sample_ids 444 0561
+sample_ids 445 0598
+sample_ids 446 0841
+sample_ids 447 0103
+sample_ids 448 0715
+sample_ids 449 0094
+sample_ids 450 0483
+sample_ids 451 0763
+sample_ids 452 0293
+sample_ids 453 0497
+sample_ids 454 1072
+sample_ids 455 0965
+sample_ids 456 0331
+sample_ids 457 0479
+sample_ids 458 0458
+sample_ids 459 0694
+sample_ids 460 0597
+sample_ids 461 0736
+sample_ids 462 0343
+sample_ids 463 0078
+sample_ids 464 0240
+sample_ids 465 0319
+sample_ids 466 0692
+sample_ids 467 0249
+sample_ids 468 0288
+sample_ids 469 0267
+sample_ids 470 0171
+sample_ids 471 0063
+sample_ids 472 1246
+sample_ids 473 0863
+sample_ids 474 0377
+sample_ids 475 0764
+sample_ids 476 0665
+sample_ids 477 0767
+sample_ids 478 1075
+sample_ids 479 0923
+sample_ids 480 0827
+sample_ids 481 0700
+sample_ids 482 0127
+sample_ids 483 0195
+sample_ids 484 0657
+sample_ids 485 0567
+sample_ids 486 0447
+sample_ids 487 0495
+sample_ids 488 1635
+sample_ids 489 0119
+sample_ids 490 0342
+sample_ids 491 0014
+sample_ids 492 0797
+sample_ids 493 0565
+sample_ids 494 0106
+sample_ids 495 0041
+sample_ids 496 0574
+sample_ids 497 1651
+sample_ids 498 0655
+sample_ids 499 0194
+sample_ids 500 0294
+sample_ids 501 0091
+sample_ids 502 0799
+sample_ids 503 0729
+sample_ids 504 1013
+sample_ids 505 0143
+sample_ids 506 0810
+sample_ids 507 0783
+sample_ids 508 0285
+sample_ids 509 0604
+sample_ids 510 0302
+sample_ids 511 0941
+sample_ids 512 0169
+sample_ids 513 0087
+sample_ids 514 0196
+sample_ids 515 0507
+sample_ids 516 0032
+sample_ids 517 0571
+sample_ids 518 0524
+sample_ids 519 0114
+sample_ids 520 0242
+sample_ids 521 0129
+sample_ids 522 0128
+sample_ids 523 0347
+sample_ids 524 0742
+sample_ids 525 0756
+sample_ids 526 0300
+sample_ids 527 0315
+sample_ids 528 0829
+sample_ids 529 0848
+sample_ids 530 1228
+sample_ids 531 1330
+sample_ids 532 0940
+sample_ids 533 1208
+sample_ids 534 0492
+sample_ids 535 0577
+sample_ids 536 0620
+sample_ids 537 0142
+sample_ids 538 0043
+sample_ids 539 0341
+sample_ids 540 0382
+sample_ids 541 0181
+sample_ids 542 0456
+sample_ids 543 0606
+sample_ids 544 0348
+sample_ids 545 0487
+sample_ids 546 0676
+sample_ids 547 0345
+sample_ids 548 0309
+sample_ids 549 0414
+sample_ids 550 0234
+sample_ids 551 0190
+sample_ids 552 0772
+sample_ids 553 1051
+sample_ids 554 0218
+sample_ids 555 0723
+sample_ids 556 0529
+sample_ids 557 0545
+sample_ids 558 0753
+sample_ids 559 0473
+sample_ids 560 0814
+sample_ids 561 0838
+sample_ids 562 0261
+sample_ids 563 0036
+sample_ids 564 0440
+sample_ids 565 0498
+sample_ids 566 0108
+sample_ids 567 0822
+sample_ids 568 0183
+sample_ids 569 0337
+sample_ids 570 0454
+sample_ids 571 0710
+sample_ids 572 0894
+sample_ids 573 0317
+sample_ids 574 0733
+sample_ids 575 0368
+sample_ids 576 0726
+sample_ids 577 0697
+sample_ids 578 0542
+sample_ids 579 0245
+sample_ids 580 0680
+sample_ids 581 0760
+sample_ids 582 0045
+sample_ids 583 0088
+sample_ids 584 0804
+sample_ids 585 0060
+sample_ids 586 0806
+sample_ids 587 0860
+sample_ids 588 0623
+sample_ids 589 0379
+sample_ids 590 1319
+sample_ids 591 1317
+sample_ids 592 0166
+sample_ids 593 0712
+sample_ids 594 1209
+sample_ids 595 0366
+sample_ids 596 0734
+sample_ids 597 0741
+sample_ids 598 1367
+sample_ids 599 0075
+sample_ids 600 1335
+sample_ids 601 0156
+sample_ids 602 0115
+sample_ids 603 1270
+sample_ids 604 0800
+sample_ids 605 0581
+sample_ids 606 0006
+sample_ids 607 0503
+sample_ids 608 1475
+sample_ids 609 0681
+sample_ids 610 0755
+sample_ids 611 0204
+sample_ids 612 1459
+sample_ids 613 0287
+sample_ids 614 0069
+sample_ids 615 1403
+sample_ids 616 0714
+sample_ids 617 0651
+sample_ids 618 0766
+sample_ids 619 0626
+sample_ids 620 0816
+sample_ids 621 0310
+sample_ids 622 0257
+sample_ids 623 0304
+sample_ids 624 0699
+sample_ids 625 0499
+sample_ids 626 0052
+sample_ids 627 0751
+sample_ids 628 0824
+sample_ids 629 0489
+sample_ids 630 0080
+sample_ids 631 0273
+sample_ids 632 0635
+sample_ids 633 0373
+sample_ids 634 0754
+sample_ids 635 0427
+sample_ids 636 0216
+sample_ids 637 0633
+sample_ids 638 0186
+sample_ids 639 0434
+sample_ids 640 0828
+sample_ids 641 0488
+sample_ids 642 0057
+sample_ids 643 0272
+sample_ids 644 0419
+sample_ids 645 0528
+sample_ids 646 0600
+sample_ids 647 1490
+sample_ids 648 0737
+sample_ids 649 0615
+sample_ids 650 0631
+sample_ids 651 0077
+sample_ids 652 0020
+sample_ids 653 0831
+sample_ids 654 0691
+sample_ids 655 0151
+sample_ids 656 0123
+sample_ids 657 0602
+sample_ids 658 0260
+sample_ids 659 1590
+sample_ids 660 0740
+sample_ids 661 0590
+sample_ids 662 0566
+sample_ids 663 0784
+sample_ids 664 0552
+sample_ids 665 0757
+sample_ids 666 0404
+sample_ids 667 1032
+sample_ids 668 0570
+sample_ids 669 0120
+sample_ids 670 0618
+sample_ids 671 1512
+sample_ids 672 0589
+sample_ids 673 0450
+sample_ids 674 0355
+sample_ids 675 1017
+sample_ids 676 0522
+sample_ids 677 0761
+sample_ids 678 0452
+sample_ids 679 0509
+sample_ids 680 0015
+sample_ids 681 0451
+sample_ids 682 0474
+sample_ids 683 1493
+sample_ids 684 0512
+sample_ids 685 0668
+sample_ids 686 0165
+sample_ids 687 0777
+sample_ids 688 0459
+sample_ids 689 0732
+sample_ids 690 0252
+sample_ids 691 0000
+sample_ids 692 0175
+sample_ids 693 0220
+sample_ids 694 0407
+sample_ids 695 0102
+sample_ids 696 0650
+sample_ids 697 0423
+sample_ids 698 0504
+sample_ids 699 0168
+sample_ids 700 0505
+sample_ids 701 0009
+sample_ids 702 1569
+sample_ids 703 0085
+sample_ids 704 0541
+sample_ids 705 0389
+sample_ids 706 0318
+sample_ids 707 0221
+sample_ids 708 0207
+sample_ids 709 0265
+sample_ids 710 0130
+sample_ids 711 0372
+sample_ids 712 0554
+sample_ids 713 0396
+sample_ids 714 0482
+sample_ids 715 0724
+sample_ids 716 0159
+sample_ids 717 0258
+sample_ids 718 0137
+sample_ids 719 0674
+sample_ids 720 0233
+sample_ids 721 0540
+sample_ids 722 0774
+sample_ids 723 0689
+sample_ids 724 0122
+sample_ids 725 0071
+sample_ids 726 0402
+sample_ids 727 0431
+sample_ids 728 0782
+sample_ids 729 0374
+sample_ids 730 0322
+sample_ids 731 1277
+sample_ids 732 1203
+sample_ids 733 0208
+sample_ids 734 0656
+sample_ids 735 0470
+sample_ids 736 0786
+sample_ids 737 0306
+sample_ids 738 0290
+sample_ids 739 0775
+sample_ids 740 0247
+sample_ids 741 0008
+sample_ids 742 0836
+sample_ids 743 1563
+sample_ids 744 0815
+sample_ids 745 0301
+sample_ids 746 0765
+sample_ids 747 0255
+sample_ids 748 0731
+sample_ids 749 0199
+sample_ids 750 1513
+sample_ids 751 0308
+sample_ids 752 1497
+sample_ids 753 0230
+sample_ids 754 0663
+sample_ids 755 0752
+sample_ids 756 0003
+sample_ids 757 0673
+sample_ids 758 0639
+sample_ids 759 0728
+sample_ids 760 0706
+sample_ids 761 0412
+sample_ids 762 0834
+sample_ids 763 0770
+sample_ids 764 0393
+sample_ids 765 0178
+sample_ids 766 0289
+sample_ids 767 0793
+sample_ids 768 0690
+sample_ids 769 1161
+sample_ids 770 0033
+sample_ids 771 0163
+sample_ids 772 0858
+sample_ids 773 1450
+sample_ids 774 0471
+sample_ids 775 0791
+sample_ids 776 0840
+sample_ids 777 0324
+sample_ids 778 0323
+sample_ids 779 0614
+sample_ids 780 0466
+sample_ids 781 0730
+sample_ids 782 0416
+sample_ids 783 0099
+sample_ids 784 0146
+sample_ids 785 0096
+sample_ids 786 0280
+sample_ids 787 0584
+sample_ids 788 0392
+sample_ids 789 0074
+sample_ids 790 0184
+sample_ids 791 0644
+sample_ids 792 0132
+sample_ids 793 0121
+sample_ids 794 0675
+sample_ids 795 0134
+sample_ids 796 0149
+sample_ids 797 0209
+sample_ids 798 0215
+sample_ids 799 0029
+sample_ids 800 0371
+sample_ids 801 0364
+sample_ids 802 0649
+sample_ids 803 0058
+sample_ids 804 0150
+sample_ids 805 0486
+sample_ids 806 0090
+sample_ids 807 0632
+sample_ids 808 0801
+sample_ids 809 0601
+sample_ids 810 0356
+sample_ids 811 0713
+sample_ids 812 0429
+sample_ids 813 0188
+sample_ids 814 0685
+sample_ids 815 0520
+sample_ids 816 1603
+sample_ids 817 0278
+sample_ids 818 0202
+sample_ids 819 0314
+sample_ids 820 0338
+sample_ids 821 0425
+sample_ids 822 0721
+sample_ids 823 0748
+sample_ids 824 0153
+sample_ids 825 0750
+sample_ids 826 0037
+sample_ids 827 0744
+sample_ids 828 0397
+sample_ids 829 0237
+sample_ids 830 0296
+sample_ids 831 1643
+sample_ids 832 0695
+sample_ids 833 0047
+sample_ids 834 0061
+sample_ids 835 0958
+sample_ids 836 0634
+sample_ids 837 0647
+sample_ids 838 0696
+sample_ids 839 1218
+sample_ids 840 0538
+sample_ids 841 1574
+sample_ids 842 0155
+sample_ids 843 0067
+sample_ids 844 0825
+sample_ids 845 0118
+sample_ids 846 0415
+sample_ids 847 0383
+sample_ids 848 0107
+sample_ids 849 0144
+sample_ids 850 0138
+sample_ids 851 0468
+sample_ids 852 0226
+sample_ids 853 0677
+sample_ids 854 0335
+sample_ids 855 0005
+sample_ids 856 0433
+sample_ids 857 0231
+sample_ids 858 0670
+sample_ids 859 0510
+sample_ids 860 0592
+sample_ids 861 0182
+sample_ids 862 0745
+sample_ids 863 0671
+sample_ids 864 0147
+sample_ids 865 0154
+sample_ids 866 0039
+sample_ids 867 1558
+sample_ids 868 0578
+sample_ids 869 1233
+sample_ids 870 0076
+sample_ids 871 1525
+sample_ids 872 0376
+sample_ids 873 0594
+sample_ids 874 0546
+sample_ids 875 0104
+sample_ids 876 0779
+sample_ids 877 0219
+sample_ids 878 0698
+sample_ids 879 0778
+sample_ids 880 0719
+sample_ids 881 0548
+sample_ids 882 0652
+sample_ids 883 0092
+sample_ids 884 0420
+sample_ids 885 0550
+sample_ids 886 0406
+sample_ids 887 0501
+sample_ids 888 0582
+sample_ids 889 0018
+sample_ids 890 0964
+sample_ids 891 0798
+sample_ids 892 0588
+sample_ids 893 1598
+sample_ids 894 0336
+sample_ids 895 0851
+sample_ids 896 0321
+sample_ids 897 1621
+sample_ids 898 0636
+sample_ids 899 0370
+sample_ids 900 0056
+sample_ids 901 0874
+sample_ids 902 0722
+sample_ids 903 1332
+sample_ids 904 0484
+sample_ids 905 0359
+sample_ids 906 0500
+sample_ids 907 0177
+sample_ids 908 0116
+sample_ids 909 0279
+sample_ids 910 0683
+sample_ids 911 0145
+sample_ids 912 0246
+sample_ids 913 0559
+sample_ids 914 0424
+sample_ids 915 1645
+sample_ids 916 0081
+sample_ids 917 0628
+sample_ids 918 0519
+sample_ids 919 0749
+sample_ids 920 0496
+sample_ids 921 1437
+sample_ids 922 0022
+sample_ids 923 0297
+sample_ids 924 0110
+sample_ids 925 0549
+sample_ids 926 0384
+sample_ids 927 0643
+sample_ids 928 0179
+sample_ids 929 0053
+sample_ids 930 0073
+sample_ids 931 0768
+sample_ids 932 0395
+sample_ids 933 0012
+sample_ids 934 0820
+sample_ids 935 0411
+sample_ids 936 0720
+sample_ids 937 0919
+sample_ids 938 0516
+sample_ids 939 0575
+sample_ids 940 0299
+sample_ids 941 1597
+sample_ids 942 0560
+sample_ids 943 0789
+sample_ids 944 0349
+sample_ids 945 0131
+sample_ids 946 0491
+sample_ids 947 0769
+sample_ids 948 0709
+sample_ids 949 0481
+sample_ids 950 0229
+Query Images Test: 1
+Gallery Images Test: 951
+
+------------------------------[University-1652]------------------------------
+Extract Features:
+[1740034782.802007] [af320f179a8f:57820:f]        vfs_fuse.c:281  UCX  ERROR inotify_add_watch(/tmp) failed: No space left on device
+img_features_query torch.Size([1, 768])
+Compute Scores:
+index [602 566 887 879 828 908  62 885 479 236 445 906 111  46 449 331 199 351
+ 467 238 320 361 721 854 622 336 678 172 225 907 315 690 517 279 518 141
+ 891 649 700 790 180 277 464 846 281 484 819 329 401  12 419 452 628  99
+ 666 497 365 713 549 354 853 895 357 402 704 243 568 366 352 629 471 207
+ 429  67 808 765  58  24 724 575  80  41 287 399 131 668 620 698 604 910
+ 245 344 307 511 460   2  86 736 124 188  19 170 875 948 395 572 392 902
+ 505 155 492 394 377 778 644 699 585 524 412 496 413 426 375 559  45 388
+ 874 747 486 427 386 217 580 160 616 466 589 734 431 164 446 438 304 226
+ 741 837  92 250 291 107 863 648 261 766 681 938 227 539 788 686 478 758
+ 744  95 132 871 701 619 100 251 545 333 772 692 821 912 233 696 928 506
+ 939  73 682 949  23 514  27 565 607 797 884 444 149 380 711  54 541 867
+ 442 208 886 799 137   9 475  94 525 159 807 126 105 147 882 697 418 729
+ 273 148  70 782 695 265 252 612 428 210 117 595 733 557 494 632 422 151
+ 829 118 455 913 355 904 156 404 223 406  31 817 915 673 653  13 190 757
+ 623 801 370 167 408 888  84 177  15 752 314 310 767  49 216  32 489 671
+   8 491 231 934 579 259 824  65  72 578 642 679 802 760 257 272 890 363
+  63 436 730 688  35 527 108 487 470 554 685 121 410 372  90 914  21 400
+ 275 364  75 143 944 424 294 534 178 224 282 843 624 234 716 447 459 577
+ 530 655 327 300 347 878 411  57 672 813 343  79 213 187 285 513 439 903
+ 212 935 923 560  98 330 433 161  18 203 140 168 749 356 712 512 726 872
+ 862 476 350 398 528 785 638 298 536 719 321 319 262  55 260 898 144 562
+ 440 240 104 101 113 358 462 116 454 495 609 382 680 546 858 112 563 441
+ 669 342 570 601 720 634  17 469 784 193 186 831 815 316  44 338  71 468
+ 248 804 246 222 614 280 753 640 617 865 705 856 550  59 553 185 596 866
+ 861 163 158   6  68 710  48 810 812 379 925 798 209 641 335  10 771 564
+ 383 504 334 783 278 855 920 584 102 779 254 437 232 625 520 930 276 781
+ 748 211 461 911 543 533 586 691 950  82 635 827 474 639 722 266 465 181
+  74 421 218 768 764 247 651 593 221 345  43 676 289 897 283 880 731 346
+ 311 822 857 588 598 269 122 658 288  91 694 687 127 927 157 154 498 340
+ 868   5 852 430 391 481  26 483 942 606 389  22 407 214 848 591 425 608
+ 551 432 184 739  81  37 582   1 175 800 647 693  97 834 290 761 792 645
+ 325 717 409 933 267 714 735 206 818 547  29 613 811 456  78 816 374 317
+ 387 567 873 732 618  61 844 110 937 434 708 615 200 130 841 583 332   0
+  40 664 244 646 256  66 670 488  83 793 477 544 146 499 723 763 542 142
+ 368 301 780 835 463 510 198  76 318 715 403 270 371 516 825 652 284  47
+ 932 138 842 485 295 171 125 756 417 832 414 552  33 631 249 264 416 109
+ 769 775 415 777 204  50 707 755 453  28 263 929 621 919  89 106 423 943
+ 229 725 535 889 191 360 587 877 179 820 869 384 448 349 626 851 309 581
+  56  85  16 166 500 836  39 195 128 662 523   4 611 385 297 271 795 728
+  30 794 308 859 515 814 540 348 182 115 940 845 743 548 592 435 312 754
+ 508 931 677 119 654 237 847  87 169 242 133 864 313 376 636 918 900 727
+ 194 870 103 945 809 302 738 558 457 702 205 482 786 359 120 745 740 709
+ 299 173 947 322 774 650 791 135 703 502 152 268 574 114 926   7 443 353
+ 526 561 328 556 737 665 610 451 215 667 921 742 230 805 480 917 633 253
+  34 323 663  51 228 922 337 305 538 509 746 405 255 306  36 630 196  38
+  25  77  11 660 661 905 751 916 529 899 274 637 594 450 420 909 590 659
+ 776 521 134 683  96 787 139  93 153 576 507 627 850 192 183 881 876 599
+ 597 522 684 773 219 150 493 292 339 235 258 600 826 145 189 796 165 789
+ 643 381  42 571 397 501 201 176 849 860 202 838 136 901 390  69 892 605
+  14 689 174 706 490 941  60 503 378 472 657 162 674 369 833 823 806 569
+ 750 473 946 367 893 129 840 803 759 675 326 770 197 894 531  20  53 373
+ 396 656 883 220 241  64 839 324 573 532 341 603 286 296 555 519  52 123
+ 936 303   3 762 896 830 239 458  88 393 924 362 537 293 718]
+gl [-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]
+ql 9999
+good_index []
+Recall@1: 0.0000 - Recall@5: 0.0000 - Recall@10: 0.0000 - Recall@top1: 0.0000 - AP: 0.0000

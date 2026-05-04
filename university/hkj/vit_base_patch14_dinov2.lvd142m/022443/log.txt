@@ -1,0 +1,174 @@
+
+Model: vit_base_patch14_dinov2.lvd142m
+===========building convnext===========
+using model_type: dinov2 as a backbone
+{'input_size': (3, 224, 224), 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225)}
+GPUs available: 2
+
+Image Size Query: (518, 518)
+Image Size Ground: (518, 518)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+Query Images Test: 37855
+Gallery Images Test: 951
+
+Scheduler: cosine - max LR: 1e-05
+Warmup Epochs: 0.1 - Warmup Steps: 118.30000000000001
+Train Epochs:  10 - Train Steps:  11830
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1094 - Last Element ID: 1530
+
+------------------------------[Epoch: 1]------------------------------
+Epoch: 1, Train Loss = 4.075, Lr = 0.000010
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 75.7866 - Recall@5: 91.1637 - Recall@10: 94.5397 - Recall@top1: 94.8620 - AP: 79.1806
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 0945 - Last Element ID: 1444
+
+------------------------------[Epoch: 2]------------------------------
+Epoch: 2, Train Loss = 0.138, Lr = 0.000009
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 79.2868 - Recall@5: 92.5637 - Recall@10: 95.2635 - Recall@top1: 95.5541 - AP: 82.2480
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1299 - Last Element ID: 0986
+
+------------------------------[Epoch: 3]------------------------------
+Epoch: 3, Train Loss = 0.084, Lr = 0.000008
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 80.8004 - Recall@5: 93.1079 - Recall@10: 95.5541 - Recall@top1: 95.7813 - AP: 83.5954
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1234 - Last Element ID: 1237
+
+------------------------------[Epoch: 4]------------------------------
+Epoch: 4, Train Loss = 0.073, Lr = 0.000007
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 81.9363 - Recall@5: 93.3800 - Recall@10: 95.5488 - Recall@top1: 95.8209 - AP: 84.5062
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1593 - Last Element ID: 1610
+
+------------------------------[Epoch: 5]------------------------------
+Epoch: 5, Train Loss = 0.054, Lr = 0.000005
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 82.7103 - Recall@5: 93.9242 - Recall@10: 95.9398 - Recall@top1: 96.2119 - AP: 85.2269
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1615 - Last Element ID: 0901
+
+------------------------------[Epoch: 6]------------------------------
+Epoch: 6, Train Loss = 0.040, Lr = 0.000004
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 81.5824 - Recall@5: 93.3747 - Recall@10: 95.7760 - Recall@top1: 96.0851 - AP: 84.2487
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1107 - Last Element ID: 1248
+
+------------------------------[Epoch: 7]------------------------------
+Epoch: 7, Train Loss = 0.033, Lr = 0.000002
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 85.3705 - Recall@5: 95.1446 - Recall@10: 96.7164 - Recall@top1: 96.9040 - AP: 87.5590
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1242 - Last Element ID: 1494
+
+------------------------------[Epoch: 8]------------------------------
+Epoch: 8, Train Loss = 0.028, Lr = 0.000001
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 84.8871 - Recall@5: 94.9280 - Recall@10: 96.4285 - Recall@top1: 96.5843 - AP: 87.1324
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 0917 - Last Element ID: 1131
+
+------------------------------[Epoch: 9]------------------------------
+Epoch: 9, Train Loss = 0.026, Lr = 0.000000
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 84.7471 - Recall@5: 94.7352 - Recall@10: 96.3228 - Recall@top1: 96.4681 - AP: 87.0055
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1501 - Last Element ID: 1016
+
+------------------------------[Epoch: 10]------------------------------
+Epoch: 10, Train Loss = 0.025, Lr = 0.000000
+
+------------------------------[Evaluate]------------------------------
+Extract Features:
+img_features_query torch.Size([37855, 768])
+Compute Scores:
+Recall@1: 84.9848 - Recall@5: 94.8831 - Recall@10: 96.3994 - Recall@top1: 96.5606 - AP: 87.2190
+
+Shuffle Dataset:
+Original Length: 37854 - Length after Shuffle: 37824
+Break Counter: 512
+Pairs left out of last batch to avoid creating noise: 30
+First Element ID: 1606 - Last Element ID: 1176

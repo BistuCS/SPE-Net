@@ -1,0 +1,23 @@
+
+Model: vit_base_patch14_dinov2.lvd142m
+===========building convnext===========
+using model_type: dinov2 as a backbone
+{'input_size': (3, 224, 224), 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225)}
+GPUs available: 2
+
+Image Size Query: (518, 518)
+Image Size Ground: (518, 518)
+Mean: (0.485, 0.456, 0.406)
+Std:  (0.229, 0.224, 0.225)
+
+Query Images Test: 0
+Gallery Images Test: 0
+
+Scheduler: cosine - max LR: 1e-05
+Warmup Epochs: 0.1 - Warmup Steps: 0.0
+Train Epochs:  10 - Train Steps:  0
+
+Shuffle Dataset:
+Original Length: 0 - Length after Shuffle: 0
+Break Counter: 0
+Pairs left out of last batch to avoid creating noise: 0
